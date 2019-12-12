@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cambios" />
+
+    <EditText
+        android:id="@+id/cajaId_cambio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/Id_Alumno" />
+
+    <EditText
+        android:id="@+id/cajaNombre_Cambio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/nombre" />
+
+    <EditText
+        android:id="@+id/cajaPrimerAp_cambio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/apPaterno" />
+
+    <EditText
+        android:id="@+id/cajaSegundoAp_cambio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/apMaterno" />
+
+    <EditText
+        android:id="@+id/cajaEdad_cambio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/edad" />
+
+    <EditText
+        android:id="@+id/cajaSemestre_cambio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/semestre" />
+
+    <EditText
+        android:id="@+id/cajaCarrera_cambio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/carrera" />
+
+    <Button
+        android:id="@+id/btnBuscarModificacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="buscarM"
+        android:text="@string/txt_brn_consultas" />
+
+    <Button
+        android:id="@+id/btn_modificar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="modificar"
+        android:text="@string/txt_brn_cambios" />
+
+    <Button
+        android:id="@+id/limpiar_consultas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="limpiarC"
+        android:text="@string/limpiar" />
+</LinearLayout>

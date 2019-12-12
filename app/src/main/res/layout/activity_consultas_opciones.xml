@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/spinner_opcion"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Spinner
+        android:id="@+id/spinner_parametro"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:entries="@array/parametro" />
+
+    <EditText
+        android:id="@+id/caja_busqueda"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:ems="10"
+        android:hint="@string/busqueda"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnBuscar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="abrirBusquedaC"
+        android:text="@string/txt_brn_consultas" />
+</LinearLayout>

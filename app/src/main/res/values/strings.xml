@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">BD_SQLite_Basico</string>
+    <string name="txt_brn_altas">AGREGAR</string>
+    <string name="txt_brn_bajas">ELIMINAR</string>
+    <string name="txt_brn_cambios">MODIFICAR</string>
+    <string name="txt_brn_consultas">BUSCAR</string>
+    <string name="altas">ALTAS</string>
+    <string name="bajas">BAJAS</string>
+    <string name="cambios">CAMBIOS</string>
+    <string name="consultas">CONSULTAS</string>
+    <string name="Id_Alumno">Id Alumno</string>
+    <string name="nombre">Nombre</string>
+    <string name="apPaterno">Apellido Paterno</string>
+    <string name="apMaterno">Apellido Materno</string>
+    <string name="edad">Edad</string>
+    <string name="carrera">Carrera</string>
+    <string name="semestre">Semestre</string>
+    <string name="registro">REGISTRARSE</string>
+    <string name="iniciar">INICIAR SESION</string>
+    <string name="Usuario">Usuario</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="continuar">CONTINUAR</string>
+    <string name="registrar_usuario">REGISTRAR USUARIO</string>
+    <string name="limpiar">Limpiar</string>
+    <string name="busqueda">Ingresa dato a buscar</string>
+
+    <string-array name="parametro">
+        <item>Numero de control</item>
+        <item>Nombre</item>
+        <item>Primer apellido</item>
+    </string-array>
+
+</resources>
